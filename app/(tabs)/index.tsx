@@ -14,7 +14,7 @@ const Webview_test = () => {
       style={[Android.AndroidSafeArea, { backgroundColor: "#191919" }]}
     >
       <WebView
-        source={{ uri: `${BASE_URL}/game-list` }}
+        source={{ uri: `${BASE_URL}` }}
         userAgent={customUserAgent}
         sharedCookiesEnabled={true}
         thirdPartyCookiesEnabled={true}
